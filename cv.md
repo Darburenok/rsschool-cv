@@ -2,7 +2,7 @@
 ## Junior Frontend Developer
 ### Contact information:
 #### Phone:
-+79534419946
++79534419936
 #### Telegram:
 @dariokio
 #### Discord:
