@@ -1,0 +1,27 @@
+body {
+font-family: 'Cabin';
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+h1 {
+    font-size: 70px;
+}
+h3 {
+    font-size: medium;
+}
+* {
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
