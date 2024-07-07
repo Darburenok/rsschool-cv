@@ -1,14 +1,25 @@
 body {
 font-family: 'Cabin';
 display: flex;
+font-size: 24px;
 flex-direction: column;
 justify-content: space-between;
+color: #000000;
+background-image: radial-gradient(circle 200px, red, transparent);
+height: 100px;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
 }
+
 h1 {
     font-size: 70px;
 }
 h3 {
-    font-size: medium;
+    font-size: 36px;
+    margin-top:50px;
+    margin-bottom: 20px;
 }
 * {
     box-sizing: border-box;
@@ -16,6 +27,7 @@ h3 {
   .container {
     max-width: 1440px;
     margin: 0 auto;
+ 
   }
   .nav-list {
     display: flex;
@@ -25,3 +37,45 @@ h3 {
   html {
     scroll-behavior: smooth;
   }
+  .nav-list {
+    list-style: none;
+    justify-content: flex-start;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+    color: #302e2e;
+    text-decoration: none;
+    
+  }
+  .nav-link:hover {
+    color: #ff0000;
+  }
+
+  .round {
+    border-radius: 50%;
+    margin: 25px 25px;
+   }
+   .code {
+    background-color: #ffc6c6;
+   }
+   .line {
+  width: 200px;
+  border-top: 3px solid #32a1ce;
+  padding-bottom: 25px;
+   }
+   .ul {
+    margin: 0 0 0 0;
+   }
+   .nav-footer {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+    color: #302e2e;
+    text-decoration: none;
+   }
+   .nav-footer :hover {
+    color: #ff0000;
+    cursor: pointer;
+   }
